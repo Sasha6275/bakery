@@ -10,7 +10,7 @@ body {background-color:#FFE2B0 ;
 
 @font-face {
     font-family: philosofer-Reguiar;
-    src: url(/bakery/fonts/Philosopher-Regular.ttf);
+    src: url(../fonts/Philosopher-Regular.ttf);
 }
 
 header {text-align: center;
@@ -44,7 +44,7 @@ font-weight: 700;
 
 .section-image{
     position: relative;
-    background-image: url(/bakery/img/background_image.jpg);
+    background-image: url(../img/background_image.jpg);
 height: 640px;
 background-size: cover;
 background-repeat: no-repeat;
