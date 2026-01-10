@@ -4,7 +4,7 @@ box-sizing: border-box;
 }
 
 
-body {padding-top: 20px;
+body {padding-top: 2rem;
     background-color:#FFE2B0 ;
 
 }
@@ -15,26 +15,28 @@ body {padding-top: 20px;
 }
 
 html{
-    font-size: 10px;
+    font-size: 1rem;
 }
 
 header {text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
-ul {list-style-type: none;
-    text-align: center;
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 10rem;
 
 }
 
 li{
 display: inline-block;
-margin-right: 100px;
 }
 
-li:last-child {margin-right: 100px;}
+li:last-child {margin-right: 0;}
 
 
-a {font-size: 18px; color: black;
+a {font-size: 1.8rem; color: black;
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
@@ -43,7 +45,7 @@ a {font-size: 18px; color: black;
 
 
 nav{
-margin-bottom: 20px;
+margin-bottom: 2rem;
 font-family: Roboto, sans-serif;
 font-weight: 700;
 }
@@ -51,24 +53,24 @@ font-weight: 700;
 .section-image{
     position: relative;
     background-image: url(../img/background_image.jpg);
-height: 640px;
+height: 64rem;
 background-size: cover;
 background-repeat: no-repeat;
 background-position:center ;
-margin-bottom: 20px;
+margin-bottom: 2rem;
 }
 
 .section-image__block {
     position: absolute;
     top: 54%;
     left: 50%;
-width: 420px;
-height: 190px;
+width: 42rem;
+height: 19rem;
 background: linear-gradient(180deg,
 rgba(224,213,178,0.8) 0%, 
 rgba(234,156,65,0.8)100%
 );
-padding-top: 15px;
+padding-top: 1.5;
 transition: .3s all;
 
 
@@ -80,35 +82,37 @@ transition: .3s all;
 }
 
 .section-image__border{
-    border: 1px solid black;
-    height: 160px;
-    width: 390px;
+    border: 0.1rem solid black;
+    height: 16rem;
+    width: 39rem;
     margin: 0 auto;
-    padding: 17px 0 0 28px;
+    padding: 1.7rem 0 0 2.8rem;
 }
 
 .section-image__title{
-    font-size: 36px;
-    margin-bottom: 9px;
+    font-size: 3.6rem;
+    margin-bottom: 0.9rem;
     font-family: philosofer-Reguiar ;
     font-weight: 400;
 
 }
 
 .section-image__text {
-    font-size: 12px;
+    font-size: 1.2rem;
     font-family: Roboto;
     font-weight: 500;
 }
 
 .section-description__icon-box {
-    text-align: center;
-    margin-bottom: 20px;
+    display: flex;
+justify-content: center;
+    gap: 7.6rem;
+    margin-bottom: 2rem;
     
 }
 
 .section-description__icon-box img {
-margin-right: 76px;
+margin-right: 7.6rem;
 }
 
 .section-description__icon-box img:last-child {
@@ -118,25 +122,25 @@ margin-right: 76px;
 
 
 .section-description__title{
-    font-size: 96px;
+    font-size: 9.6rem;
     font-family: philosofer-Reguiar;
     font-weight: 400;
 }
 
 .section-description__text {
-    font-size: 18px;
+    font-size: 1.8rem;
     font-family: Roboto;
     font-weight: 400;
 }
 
 .section-description__text-box {
-width:1000px ;
+width:90% ;
 text-align: center;
 margin: 0 auto;
 }
 
 .section-description {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 .red {
@@ -145,29 +149,29 @@ margin: 0 auto;
 
 
 .section-map {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     text-align: center;
 }
 
 
 .section-map__line {
-    border-bottom: 1px solid #999999;
-    width: 1024px;
+    border-bottom: 0.1rem solid #999999;
+    width: 90%;
     margin: 0 auto;
 }
 
 .section-map__title {
-    font-size: 30px;
+    font-size: 3rem;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 font-family: Roboto;
     font-weight: 400;
 
 }
 
 iframe {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 a:hover {
