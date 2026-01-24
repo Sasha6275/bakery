@@ -10,7 +10,10 @@
 
 @media (max-width: 860px) {
   .section-description__icon-box {
-    height: 18rem;
+    height: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+gap: 4.5rem;
   }
 
   .section-description__title {
@@ -24,4 +27,24 @@
   .block-adaptive {
     display: block;
   }
+}
+
+@media (max-width: 620px) {
+ul {
+gap: 0;
+justify-content: space-evenly;
+}
+
+}
+
+
+@media (max-width: 390px) {
+
+html {
+font-size: 8px;
+
+
+}
+
+
 }

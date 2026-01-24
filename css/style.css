@@ -72,7 +72,7 @@ nav {
     rgba(224, 213, 178, 0.8) 0%,
     rgba(234, 156, 65, 0.8) 100%
   );
-  padding-top: 1.5;
+  padding-top: 1.5rem;
   transition: 0.3s all;
 }
 
@@ -85,7 +85,7 @@ nav {
   height: 16rem;
   width: 39rem;
   margin: 0 auto;
-  padding: 1.7rem 0 0 2.8rem;
+  padding: 1.7rem 2.8rem 0 2.8rem;
 }
 
 .section-image__title,
@@ -187,9 +187,21 @@ a:hover {
   text-align: center;
   width: 90%;
   border: 0.2rem dashed #f15b40;
-  margin: 0 auto 2rem auto;
+  margin: 0 auto 4rem auto;
 }
 
 .block-adaptive__text[open] {
   padding-bottom: 2rem;
+}
+
+.block-adaptive__title::marker {
+  content:none;
+}
+
+.block-adaptive__title {
+  cursor: pointer;
+}
+
+.block-adaptive__title:hover {
+  color: #f15b40;
 }
